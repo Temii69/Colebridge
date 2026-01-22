@@ -68,7 +68,7 @@ const ColebridgeWebsite = () => {
                 <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white animate-slideInLeft">Welcome to Colebridge Advisory Advisory</h1>
                 <p className="text-xl md:text-2xl mb-8 text-white animate-slideInRight">Empowering Growth Through Expert Consultancy, Training & Research</p>
                 <button 
-                  onClick={() => setCurrentPage('contact')}
+                  onClick={() => setCurrentPage('about')}
                   className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl animate-bounce"
                   style={{ animationDuration: '2s', animationIterationCount: '3' }}
                 >
@@ -354,87 +354,96 @@ const ColebridgeWebsite = () => {
 
       case 'mentorship':
         return (
-          <div className="max-w-4xl mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold mb-8 text-blue-600">About Me</h1>
-             <div className="mb-16 bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-500 hover:shadow-2xl">
+          <div className="max-w-6xl mx-auto px-4 py-8 md:py-16">
+            <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-blue-600">About Me</h1>
+             <div className="mb-8 md:mb-16 bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-500 hover:shadow-2xl">
               <div className="grid md:grid-cols-2 gap-0">
-                <div className="order-2 md:order-1 p-2 md:p-12 flex flex-col justify-center">
+                <div className="order-2 md:order-1 p-4 md:p-8 lg:p-12 flex flex-col justify-center">
                   <div className="mb-4">
                     <span className="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-semibold mb-2">Founder/Principal</span>
                   </div>
-                  <h2 className="text-xl font-bold mb-3 text-gray-800">Kehinde Aremu-Cole FISEN FIHSSD</h2>
+                  <h2 className="text-lg md:text-xl font-bold mb-3 text-gray-800">Kehinde Aremu-Cole FISEN FIHSSD</h2>
                 
-                  <p className="text-gray-700 mb-4 leading-relaxed font-medium">
+                  <p className="text-sm md:text-base text-gray-700 mb-4 leading-relaxed font-medium">
                     Development Specialist | Public Sector Leader | Youth & Human Capital Strategist | Investment & Policy Advisor | Financial Literacy Advocate
                   </p>
-                  <p className="text-gray-700 mb-4 leading-relaxed">
+                  <p className="text-sm md:text-base text-gray-700 mb-4 leading-relaxed">
                     Kehinde Aremu has over three decades of experience in youth development, skills ecosystems, human capital strategy, and public sector transformation. He works with governments, development partners, and organizations to design and implement scalable, evidence-based solutions that strengthen institutions and expand economic opportunity.
                   </p>
-                  <p className='text-gray-700 mb-4 leading-relaxed'>
+                  <p className='text-sm md:text-base text-gray-700 mb-4 leading-relaxed'>
                     He is the Founder of Memopin Limited and Principal of Colebridge Advisory, where he advises on workforce development, youth employment strategy, public sector reform, and partnership-led programme delivery. He also serves on multiple advisory boards, supporting governance, strategy, and institutional effectiveness across public, private, and social impact organizations.
                   </p>
-                  <p className="text-gray-700 mb-4 leading-relaxed">
-                    Kehinde previously served as Director of Skills Acquisition and Entrepreneurship Development (SAED) at the National Youth Service Corps (NYSC), Nigeria’s largest youth-focused public institution. In this role, and across earlier executive assignments at national headquarters, area offices, and state secretariats, he led policy development, programme execution, and organizational reform initiatives with nationwide impact.
+                  <p className="text-sm md:text-base text-gray-700 mb-4 leading-relaxed">
+                    Kehinde previously served as Director of Skills Acquisition and Entrepreneurship Development (SAED) at the National Youth Service Corps (NYSC), Nigeria's largest youth-focused public institution. In this role, and across earlier executive assignments at national headquarters, area offices, and state secretariats, he led policy development, programme execution, and organizational reform initiatives with nationwide impact.
                   </p>
-                  <p className='text-gray-700 mb-4 leading-relaxed'>
+                  <p className='text-sm md:text-base text-gray-700 mb-4 leading-relaxed'>
                     His experience spans policy formulation, organizational design, human resource strategy, planning and research, ICT-enabled systems, and multi-stakeholder coordination. He was a member of several high-level reform and governance committees, contributing to legislative reviews, institutional re-engineering, inter-agency collaboration frameworks, and programme modernization.
                   </p>
-                  <p className='text-gray-700 mb-4 leading-relaxed'>
-                    Internationally, Kehinde represented Nigeria at the United Nations Youth Assembly and completed specialized training in Chinese Renaissance and Vocational Education for Developing Nations at Ningbo Polytechnic, People’s Republic of China, under a Chinese Government-sponsored programme. He is an alumnus of the National Institute for Policy and Strategic Studies (NIPSS) and took a training on Learning Management System (LMS) at Entreprise Development Centre (Lagos Business School).
+                  <p className='text-sm md:text-base text-gray-700 mb-4 leading-relaxed'>
+                    Internationally, Kehinde represented Nigeria at the United Nations Youth Assembly and completed specialized training in Chinese Renaissance and Vocational Education for Developing Nations at Ningbo Polytechnic, People's Republic of China, under a Chinese Government-sponsored programme. He is an alumnus of the National Institute for Policy and Strategic Studies (NIPSS) and took a training on Learning Management System (LMS) at Entreprise Development Centre (Lagos Business School).
                   </p>
-                  <p className='text-gray-700 mb-4 leading-relaxed'>
+                  <p className='text-sm md:text-base text-gray-700 mb-4 leading-relaxed'>
                     Kehinde is a recipient of the Integrity Icon Award, recognizing ethical leadership and excellence in public service. He is a Fellow of the Institute of Strategic Entrepreneurs of Nigeria, a Fellow of the Institute of Humanitarian Studies and Social Development, and a Certified International Labour Organization(ILO-SIDYB) Trainer.
                   </p>
-                  <p className='text-gray-700 mb-4 leading-relaxed'>
+                  <p className='text-sm md:text-base text-gray-700 mb-4 leading-relaxed'>
                     He also convenes N-GAGE & X-CHANGE with Aremu(NXA), a structured mentorship platform focused on leadership development, performance, and sustainable work–life integration.
                   </p>
-                  <p className='text-gray-700 mb-4 leading-relaxed'>
+                  <p className='text-sm md:text-base text-gray-700 mb-4 leading-relaxed'>
                     Kehinde is particularly valued for his ability to build and sustain high-impact partnerships across government, the private sector, development agencies, and communities—enabling alignment, execution discipline, and long-term outcomes.
                   </p>
-                  <p className='text-gray-700 mb-4 leading-relaxed'>
-                    <p>Mentorship Focus Areas:</p>
-                    <ul className='list-disc'>
+                  <div className='text-sm md:text-base text-gray-700 mb-4 leading-relaxed'>
+                    <p className="font-semibold mb-2">Mentorship Focus Areas:</p>
+                    <ul className='list-disc pl-5 space-y-1 mb-4'>
                       <li>Youth employment and skills ecosystem design</li>
                       <li>Human capital and workforce development</li>
                       <li>Financial literacy and Investment</li>
                       <li>Personal productivity and work life balance</li>
                       <li>Partnership strategy and stakeholder alignment</li>
                     </ul>
-                  </p>
+                    <p>
+                      <ul>
+                        <li>
+                          <a href="https://www.linkedin.com/in/kehinde-aremu-cole-1a9029163/" target="_blank" rel="noopener noreferrer">
+                        <i className="fa-brands fa-linkedin fa-2x text-blue-600"></i>
+                        </a>
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
                   <div className="mt-6">
-                    <h3 className="font-bold text-gray-800 mb-2">Expertise:</h3>
+                    <h3 className="font-bold text-gray-800 mb-2 text-sm md:text-base">Expertise:</h3>
                     <div className="flex flex-wrap gap-2">
-                      <span className="bg-gray-100 px-3 py-1 rounded-full text-sm text-gray-700">Strategic Planning</span>
-                      <span className="bg-gray-100 px-3 py-1 rounded-full text-sm text-gray-700">Leadership</span>
-                      <span className="bg-gray-100 px-3 py-1 rounded-full text-sm text-gray-700">Change Management</span>
+                      <span className="bg-gray-100 px-3 py-1 rounded-full text-xs md:text-sm text-gray-700">Strategic Planning</span>
+                      <span className="bg-gray-100 px-3 py-1 rounded-full text-xs md:text-sm text-gray-700">Leadership</span>
+                      <span className="bg-gray-100 px-3 py-1 rounded-full text-xs md:text-sm text-gray-700">Change Management</span>
                     </div>
                   </div>
                 </div>
-                <div className="order-1 md:order-2 h-64 md:h-auto pt-[4rem]">
+                <div className="order-1 md:order-2 p-4 md:p-6 lg:p-8">
                   <img 
                     src={aremu}
-                    alt=""
-                    className="w-full h-[85vh] pr-4 rounded-md mb-4 object-cover "
+                    alt="Kehinde Aremu-Cole"
+                    className="w-full h-[70vh] md:h-96 lg:h-[350px] rounded-md mb-4 object-cover"
                   />
                   <img 
                     src={aremu1}
-                    alt=""
-                    className="w-full h-[85vh] pr-4 rounded-md mb-4 object-cover "
+                    alt="Kehinde Aremu-Cole"
+                    className="w-full h-[70vh] md:h-96 lg:h-[350px] rounded-md mb-4 object-cover"
                   />
                   <img 
                     src={aremu2}
-                    alt=""
-                    className="w-full h-[85vh] pr-4 rounded-md mb-4 object-cover "
+                    alt="Kehinde Aremu-Cole"
+                    className="w-full h-[70vh] md:h-96 lg:h-[350px] rounded-md mb-4 object-cover"
                   />
                   <img 
                     src={aremu3}
-                    alt=""
-                    className="w-full h-[85vh] pr-4 rounded-md mb-4 object-cover "
+                    alt="Kehinde Aremu-Cole"
+                    className="w-full h-[70vh] md:h-96 lg:h-[350px] rounded-md mb-4 object-cover"
                   />
                   <img 
                     src={aremu4}
-                    alt=""
-                    className="w-full h-[85vh] pr-4 rounded-md object-cover "
+                    alt="Kehinde Aremu-Cole"
+                    className="w-full h-[70vh] md:h-96 lg:h-[350px] rounded-md object-cover"
                   />
                 </div>
               </div>
