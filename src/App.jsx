@@ -362,7 +362,7 @@ const ColebridgeWebsite = () => {
                   <div className="mb-4">
                     <span className="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-semibold mb-2">Founder/Principal</span>
                   </div>
-                  <h2 className="text-2xl font-bold mb-3 text-gray-800">Kehinde Aremu FISEN FIHSSD</h2>
+                  <h2 className="text-xl font-bold mb-3 text-gray-800">Kehinde Aremu-Cole FISEN FIHSSD</h2>
                 
                   <p className="text-gray-700 mb-4 leading-relaxed font-medium">
                     Development Specialist | Public Sector Leader | Youth & Human Capital Strategist | Investment & Policy Advisor | Financial Literacy Advocate
