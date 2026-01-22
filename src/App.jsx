@@ -383,7 +383,7 @@ const ColebridgeWebsite = () => {
                     Internationally, Kehinde represented Nigeria at the United Nations Youth Assembly and completed specialized training in Chinese Renaissance and Vocational Education for Developing Nations at Ningbo Polytechnic, People’s Republic of China, under a Chinese Government-sponsored programme. He is an alumnus of the National Institute for Policy and Strategic Studies (NIPSS) and took a training on Learning Management System (LMS) at Entreprise Development Centre (Lagos Business School).
                   </p>
                   <p className='text-gray-700 mb-4 leading-relaxed'>
-                    Kehinde is a recipient of the Integrity Icon Award, recognizing ethical leadership and excellence in public service. He is a Fellow of the Institute of Strategic Entrepreneurship of Nigeria, a Fellow of the Institute of Humanitarian Studies and Social Development, and a Certified Start and Improve Your Business (SIYB) Trainer.
+                    Kehinde is a recipient of the Integrity Icon Award, recognizing ethical leadership and excellence in public service. He is a Fellow of the Institute of Strategic Entrepreneurs of Nigeria, a Fellow of the Institute of Humanitarian Studies and Social Development, and a Certified International Labour Organization(ILO-SIDYB) Trainer.
                   </p>
                   <p className='text-gray-700 mb-4 leading-relaxed'>
                     He also convenes N-GAGE & X-CHANGE with Aremu(NXA), a structured mentorship platform focused on leadership development, performance, and sustainable work–life integration.
