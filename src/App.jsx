@@ -707,7 +707,7 @@ const ColebridgeWebsite = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <Building2 className="w-6 h-6 mr-2" />
+              <img className="w-6 h-6 mr-2" src={cole} alt="" />
               <span className="text-xl font-bold">COLEBRIDGE ADVISORY</span>
             </div>
             <p className="text-gray-300">
