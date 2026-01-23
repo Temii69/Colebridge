@@ -65,8 +65,8 @@ const ColebridgeWebsite = () => {
             <div className="relative py-24 px-4 bg-cover bg-center animate-fadeIn from-blue-600 to-blue-700 bg-gradient-to-r" >
               <div className="absolute inset-0 bg-blue-950 bg-opacity-70 transition-all duration-700 hover:bg-opacity-60"></div>
               <div className="max-w-6xl mx-auto relative z-10 transform transition-all duration-700 hover:scale-105">
-                <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white animate-slideInLeft">Welcome to Colebridge Advisory Advisory</h1>
-                <p className="text-xl md:text-2xl mb-8 text-white animate-slideInRight">Empowering Growth Through Expert Consultancy, Training & Research</p>
+                <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white animate-slideInLeft">Welcome to Colebridge Advisory</h1>
+                <p className="text-xl md:text-2xl mb-8 text-white animate-slideInRight">Empowering Growth Through Expert Advisory, Training & Research</p>
                 <button 
                   onClick={() => setCurrentPage('about')}
                   className="bg-white text-blue-950 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl animate-bounce"
@@ -92,7 +92,7 @@ const ColebridgeWebsite = () => {
 
             <div className="bg-gray-50 py-16 px-4">
               <div className="max-w-6xl mx-auto">
-                <h2 className="text-3xl font-bold text-center mb-12 animate-fadeIn">Why Choose Colebridge Advisory Advisory?</h2>
+                <h2 className="text-3xl font-bold text-center mb-12 animate-fadeIn">Why Choose Colebridge Advisory?</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="bg-white p-6 rounded-lg shadow transform transition-all duration-500 hover:shadow-xl hover:-translate-y-2 hover:bg-blue-50 cursor-pointer group">
                     <h3 className="text-xl font-bold mb-3 text-blue-950 group-hover:scale-110 inline-block transition-transform duration-300">Expert Team</h3>
@@ -151,7 +151,7 @@ const ColebridgeWebsite = () => {
 
               <div className="bg-gradient-to-r from-blue-950 to-blue-800 text-white p-8 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4">Ready to Transform Your Business?</h3>
-                <p className="mb-6">Let's discuss how our consultancy services can help you achieve your goals.</p>
+                <p className="mb-6">Let's discuss how our advisory services can help you achieve your goals.</p>
                 <button 
                   onClick={() => setCurrentPage('contact')}
                   className="bg-white text-blue-950 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
