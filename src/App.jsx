@@ -63,13 +63,13 @@ const ColebridgeWebsite = () => {
         return (
           <div>
             <div className="relative py-24 px-4 bg-cover bg-center animate-fadeIn from-blue-600 to-blue-700 bg-gradient-to-r" >
-              <div className="absolute inset-0 bg-blue-600 bg-opacity-70 transition-all duration-700 hover:bg-opacity-60"></div>
+              <div className="absolute inset-0 bg-blue-950 bg-opacity-70 transition-all duration-700 hover:bg-opacity-60"></div>
               <div className="max-w-6xl mx-auto relative z-10 transform transition-all duration-700 hover:scale-105">
                 <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white animate-slideInLeft">Welcome to Colebridge Advisory Advisory</h1>
                 <p className="text-xl md:text-2xl mb-8 text-white animate-slideInRight">Empowering Growth Through Expert Consultancy, Training & Research</p>
                 <button 
                   onClick={() => setCurrentPage('about')}
-                  className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl animate-bounce"
+                  className="bg-white text-blue-950 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl animate-bounce"
                   style={{ animationDuration: '2s', animationIterationCount: '3' }}
                 >
                   Get Started
@@ -83,7 +83,7 @@ const ColebridgeWebsite = () => {
                 {services.map((service, idx) => (
                   <div key={idx} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105 cursor-pointer group">
                     <div className="mb-4 transform transition-all duration-500 group-hover:rotate-12 group-hover:scale-110">{service.icon}</div>
-                    <h3 className="text-xl font-bold mb-4 group-hover:text-blue-600 transition-colors duration-300">{service.title}</h3>
+                    <h3 className="text-xl font-bold mb-4 group-hover:text-blue-950 transition-colors duration-300">{service.title}</h3>
                     <p className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">{service.description}</p>
                   </div>
                 ))}
@@ -95,23 +95,23 @@ const ColebridgeWebsite = () => {
                 <h2 className="text-3xl font-bold text-center mb-12 animate-fadeIn">Why Choose Colebridge Advisory Advisory?</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="bg-white p-6 rounded-lg shadow transform transition-all duration-500 hover:shadow-xl hover:-translate-y-2 hover:bg-blue-50 cursor-pointer group">
-                    <h3 className="text-xl font-bold mb-3 text-blue-600 group-hover:scale-110 inline-block transition-transform duration-300">Expert Team</h3>
+                    <h3 className="text-xl font-bold mb-3 text-blue-950 group-hover:scale-110 inline-block transition-transform duration-300">Expert Team</h3>
                     <p className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">Our professionals bring years of experience and deep industry knowledge to every project.</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow transform transition-all duration-500 hover:shadow-xl hover:-translate-y-2 hover:bg-blue-50 cursor-pointer group">
-                    <h3 className="text-xl font-bold mb-3 text-blue-600 group-hover:scale-110 inline-block transition-transform duration-300">Tailored Solutions</h3>
+                    <h3 className="text-xl font-bold mb-3 text-blue-950 group-hover:scale-110 inline-block transition-transform duration-300">Tailored Solutions</h3>
                     <p className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">We customize our services to meet your unique organizational needs and goals.</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow transform transition-all duration-500 hover:shadow-xl hover:-translate-y-2 hover:bg-blue-50 cursor-pointer group">
-                    <h3 className="text-xl font-bold mb-3 text-blue-600 group-hover:scale-110 inline-block transition-transform duration-300">Proven Results</h3>
+                    <h3 className="text-xl font-bold mb-3 text-blue-950 group-hover:scale-110 inline-block transition-transform duration-300">Proven Results</h3>
                     <p className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">Track record of delivering measurable outcomes and sustainable growth for our clients.</p>
                   </div>
                   <div className="bg-white p-6 rounded-lg shadow transform transition-all duration-500 hover:shadow-xl hover:-translate-y-2 hover:bg-blue-50 cursor-pointer group">
-                    <h3 className="text-xl font-bold mb-3 text-blue-600 group-hover:scale-110 inline-block transition-transform duration-300">Comprehensive Approach</h3>
+                    <h3 className="text-xl font-bold mb-3 text-blue-950 group-hover:scale-110 inline-block transition-transform duration-300">Comprehensive Approach</h3>
                     <p className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">Integrated services spanning consultancy, training, and research for holistic solutions.</p>
                   </div>
                 </div>
-                 <div className="border-l-4 border-blue-600 pl-6 py-4 bg-blue-50 mt-6">
+                 <div className="border-l-4 border-blue-950 pl-6 py-4 bg-blue-50 mt-6">
                 <p className="text-lg text-gray-700 italic">
                   "...Converting Vision to Value! We turn strategic intentions into real, pratical, and measurable results."
                 </p>
@@ -124,7 +124,7 @@ const ColebridgeWebsite = () => {
       case 'consultancy':
         return (
           <div className="max-w-6xl mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold mb-8 text-blue-600">Human Capital & Organizational Excellence</h1>
+            <h1 className="text-4xl font-bold mb-8 text-blue-950">Human Capital & Organizational Excellence</h1>
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-8">
                 At Colebridge Advisory, we help organizations unlock peak performance by strengthening people, leadership, and culture. Our solutions are designed to build capable teams, effective leaders, and productive workplaces that scale sustainably.
@@ -149,12 +149,12 @@ const ColebridgeWebsite = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-lg">
+              <div className="bg-gradient-to-r from-blue-950 to-blue-800 text-white p-8 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4">Ready to Transform Your Business?</h3>
                 <p className="mb-6">Let's discuss how our consultancy services can help you achieve your goals.</p>
                 <button 
                   onClick={() => setCurrentPage('contact')}
-                  className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+                  className="bg-white text-blue-950 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
                 >
                   Contact Us Today
                 </button>
@@ -166,23 +166,23 @@ const ColebridgeWebsite = () => {
       case 'trainings':
         return (
           <div className="max-w-6xl mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold mb-8 text-blue-600">Financial Strategy & Wealth Architecture</h1>
+            <h1 className="text-4xl font-bold mb-8 text-blue-950">Financial Strategy & Wealth Architecture</h1>
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-8">
                 We design robust financial structures that safeguard assets, optimize capital, and support long-term, sustainable growth. Our approach blends strategic insight with disciplined financial planning.
               </p>
               
               <div className="grid md:grid-cols-3 gap-6 mb-12">
-                <div className="border-2 border-blue-200 p-6 rounded-lg hover:border-blue-600 transition">
-                  <h3 className="text-xl font-bold mb-3 text-blue-600">Capital Allocation Strategy</h3>
+                <div className="border-2 border-blue-200 p-6 rounded-lg hover:border-blue-950 transition">
+                  <h3 className="text-xl font-bold mb-3 text-blue-950">Capital Allocation Strategy</h3>
                   <p className="text-gray-700">Guide investment and funding decisions to maximize returns and manage risk effectively.</p>
                 </div>
-                <div className="border-2 border-blue-200 p-6 rounded-lg hover:border-blue-600 transition">
-                  <h3 className="text-xl font-bold mb-3 text-blue-600">Financial Modeling & Forecasting</h3>
+                <div className="border-2 border-blue-200 p-6 rounded-lg hover:border-blue-950 transition">
+                  <h3 className="text-xl font-bold mb-3 text-blue-950">Financial Modeling & Forecasting</h3>
                   <p className="text-gray-700">Build data-driven models to support strategic planning, scenario analysis, and decision-making.</p>
                 </div>
-                <div className="border-2 border-blue-200 p-6 rounded-lg hover:border-blue-600 transition">
-                  <h3 className="text-xl font-bold mb-3 text-blue-600">Asset Protection Frameworks</h3>
+                <div className="border-2 border-blue-200 p-6 rounded-lg hover:border-blue-950 transition">
+                  <h3 className="text-xl font-bold mb-3 text-blue-950">Asset Protection Frameworks</h3>
                   <p className="text-gray-700">Develop structures that preserve wealth, mitigate financial risk, and ensure long-term stability.</p>
                 </div>
               </div>
@@ -191,19 +191,19 @@ const ColebridgeWebsite = () => {
                 <h3 className="text-2xl font-bold mb-4">Our Financial Strategy Approach</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-blue-950 mr-2">✓</span>
                     <span>Interactive and engaging learning methodologies</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-blue-950 mr-2">✓</span>
                     <span>Practical, real-world applications and case studies</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-blue-950 mr-2">✓</span>
                     <span>Experienced trainers with industry expertise</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-blue-950 mr-2">✓</span>
                     <span>Post-training support and resources</span>
                   </li>
                 </ul>
@@ -215,7 +215,7 @@ const ColebridgeWebsite = () => {
       case 'research':
         return (
           <div className="max-w-6xl mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold mb-8 text-blue-600">Strategic Advisory & Enterprise Transformation</h1>
+            <h1 className="text-4xl font-bold mb-8 text-blue-950">Strategic Advisory & Enterprise Transformation</h1>
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-8">
                 We partner with organizations to navigate change, improve resilience, and build future-ready enterprises. Our advisory services focus on transformation that delivers measurable and lasting impact.
@@ -225,19 +225,19 @@ const ColebridgeWebsite = () => {
                 <h3 className="text-2xl font-bold mb-6">Our Services</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-bold text-lg mb-2 text-blue-600">Change Management</h4>
+                    <h4 className="font-bold text-lg mb-2 text-blue-950">Change Management</h4>
                     <p className="text-gray-700">Support organizations through transitions with structured approaches that drive adoption and alignment.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-2 text-blue-600">Operational Efficiency</h4>
+                    <h4 className="font-bold text-lg mb-2 text-blue-950">Operational Efficiency</h4>
                     <p className="text-gray-700">Identify inefficiencies and optimize operations to improve performance, cost control, and scalability.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-2 text-blue-600">Business Model Innovation</h4>
+                    <h4 className="font-bold text-lg mb-2 text-blue-950">Business Model Innovation</h4>
                     <p className="text-gray-700">Redesign and evolve business models to unlock new value, revenue streams, and competitive advantage.</p>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-2 text-blue-600">Feasibility Studies</h4>
+                    <h4 className="font-bold text-lg mb-2 text-blue-950">Feasibility Studies</h4>
                     <p className="text-gray-700">Comprehensive analysis of project viability and potential outcomes.</p>
                   </div>
                 </div>
@@ -245,20 +245,20 @@ const ColebridgeWebsite = () => {
 
               <div className="grid md:grid-cols-3 gap-6 mb-12">
                 <div className="text-center p-6 bg-white shadow-lg rounded-lg">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">Data-Driven</div>
+                  <div className="text-4xl font-bold text-blue-950 mb-2">Data-Driven</div>
                   <p className="text-gray-600">Rigorous methodologies ensuring reliable, actionable insights</p>
                 </div>
                 <div className="text-center p-6 bg-white shadow-lg rounded-lg">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">Objective</div>
+                  <div className="text-4xl font-bold text-blue-950 mb-2">Objective</div>
                   <p className="text-gray-600">Unbiased analysis providing clear, honest assessments</p>
                 </div>
                 <div className="text-center p-6 bg-white shadow-lg rounded-lg">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">Actionable</div>
+                  <div className="text-4xl font-bold text-blue-950 mb-2">Actionable</div>
                   <p className="text-gray-600">Practical recommendations you can implement immediately</p>
                 </div>
               </div>
 
-              <div className="border-l-4 border-blue-600 pl-6 py-4 bg-blue-50">
+              <div className="border-l-4 border-blue-950 pl-6 py-4 bg-blue-50">
                 <p className="text-lg text-gray-700 italic">
                   "Our research services transform complex data into clear insights that drive strategic decision-making and organizational success."
                 </p>
@@ -270,7 +270,7 @@ const ColebridgeWebsite = () => {
       case 'about':
         return (
           <div className="max-w-6xl mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold mb-8 text-blue-600">About Colebridge Advisory</h1>
+            <h1 className="text-4xl font-bold mb-8 text-blue-950">About Colebridge Advisory</h1>
             
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-8">
@@ -281,7 +281,7 @@ const ColebridgeWebsite = () => {
               </p>
               <div className="grid md:grid-cols-2 gap-12 mb-12">
                 <div>
-                  <h2 className="text-2xl font-bold mb-4 text-blue-600">Our Mission</h2>
+                  <h2 className="text-2xl font-bold mb-4 text-blue-950">Our Mission</h2>
                   <p className="text-gray-700">
                     Architecting organizational performance by aligning human potential with corporate strategy.
                     <ul className='list-disc'>
@@ -292,7 +292,7 @@ const ColebridgeWebsite = () => {
                   </p>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold mb-4 text-blue-600">Our Vision</h2>
+                  <h2 className="text-2xl font-bold mb-4 text-blue-950">Our Vision</h2>
                   <p className="text-gray-700">
                     To be the keystone where clarity creates lasting value.
                     <ul className='list-disc'>
@@ -304,7 +304,7 @@ const ColebridgeWebsite = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-lg mb-12">
+              <div className="bg-gradient-to-r from-blue-950 to-blue-800 text-white p-8 rounded-lg mb-12">
                 <h2 className="text-3xl font-bold mb-4">Our Core Values</h2>
                 <h1 className="text-2xl font-bold mb-6">The C.O.L.E. Standard</h1>
                 <div className="grid md:grid-cols-2 gap-6">
@@ -331,19 +331,19 @@ const ColebridgeWebsite = () => {
                 <h2 className="text-2xl font-bold mb-4">What Sets Us Apart</h2>
                 <div className="space-y-4 text-gray-700">
                   <p className="flex items-start">
-                    <span className="text-blue-600 font-bold mr-3">→</span>
+                    <span className="text-blue-950 font-bold mr-3">→</span>
                     <span>Multidisciplinary team of experts across various industries and domains</span>
                   </p>
                   <p className="flex items-start">
-                    <span className="text-blue-600 font-bold mr-3">→</span>
+                    <span className="text-blue-950 font-bold mr-3">→</span>
                     <span>Customized solutions tailored to your unique challenges and objectives</span>
                   </p>
                   <p className="flex items-start">
-                    <span className="text-blue-600 font-bold mr-3">→</span>
+                    <span className="text-blue-950 font-bold mr-3">→</span>
                     <span>Proven track record of successful projects and satisfied clients</span>
                   </p>
                   <p className="flex items-start">
-                    <span className="text-blue-600 font-bold mr-3">→</span>
+                    <span className="text-blue-950 font-bold mr-3">→</span>
                     <span>Commitment to sustainable and ethical business practices</span>
                   </p>
                 </div>
@@ -355,12 +355,12 @@ const ColebridgeWebsite = () => {
       case 'mentorship':
         return (
           <div className="max-w-6xl mx-auto px-4 py-8 md:py-16">
-            <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-blue-600">About Me</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-blue-950">N-GAGE & X-CHANGE WITH AREMU</h1>
              <div className="mb-8 md:mb-16 bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-500 hover:shadow-2xl">
               <div className="grid md:grid-cols-2 gap-0">
                 <div className="order-2 md:order-1 p-4 md:p-8 lg:p-12 flex flex-col justify-center">
                   <div className="mb-4">
-                    <span className="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-semibold mb-2">Founder/Principal</span>
+                    <span className="inline-block bg-blue-100 text-blue-950 px-4 py-1 rounded-full text-sm font-semibold mb-2">Founder/Principal</span>
                   </div>
                   <h2 className="text-lg md:text-xl font-bold mb-3 text-gray-800">Kehinde Aremu-Cole FISEN FIHSSD</h2>
                 
@@ -404,7 +404,7 @@ const ColebridgeWebsite = () => {
                       <ul>
                         <li>
                           <a href="https://www.linkedin.com/in/kehinde-aremu-cole-1a9029163/" target="_blank" rel="noopener noreferrer">
-                        <i className="fa-brands fa-linkedin fa-2x text-blue-600"></i>
+                        <i className="fa-brands fa-linkedin fa-2x text-blue-950"></i>
                         </a>
                         </li>
                       </ul>
@@ -454,7 +454,7 @@ const ColebridgeWebsite = () => {
       case 'contact':
         return (
           <div className="max-w-4xl mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold mb-8 text-blue-600">Contact Us</h1>
+            <h1 className="text-4xl font-bold mb-8 text-blue-950">Contact Us</h1>
             <p className="text-lg text-gray-700 mb-12">
               Get in touch with us to discuss how Colebridge Advisory can help your organization achieve its goals. We look forward to hearing from you.
             </p>
@@ -462,7 +462,7 @@ const ColebridgeWebsite = () => {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <div className="flex items-start mb-4">
-                  <Mail className="w-6 h-6 text-blue-600 mr-3 mt-1" />
+                  <Mail className="w-6 h-6 text-blue-950 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-lg mb-1">Email</h3>
                     <p className="text-gray-700">info@colebridge.ng</p>
@@ -472,7 +472,7 @@ const ColebridgeWebsite = () => {
 
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <div className="flex items-start mb-4">
-                  <Phone className="w-6 h-6 text-blue-600 mr-3 mt-1" />
+                  <Phone className="w-6 h-6 text-blue-950 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-lg mb-1">Phone</h3>
                     <p className="text-gray-700">+234 803 311 5470</p>
@@ -482,7 +482,7 @@ const ColebridgeWebsite = () => {
 
               <div className="bg-white p-6 rounded-lg shadow-lg md:col-span-2">
                 <div className="flex items-start mb-4">
-                  <MapPin className="w-6 h-6 text-blue-600 mr-3 mt-1" />
+                  <MapPin className="w-6 h-6 text-blue-950 mr-3 mt-1" />
                   <div>
                     <h3 className="font-bold text-lg mb-1">Office</h3>
                     <p className="text-gray-700">Abuja, Lagos, Ilorin</p>
@@ -491,7 +491,7 @@ const ColebridgeWebsite = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-lg">
+            <div className="bg-gradient-to-r from-blue-950 to-blue-800 text-white p-8 rounded-lg">
               <h2 className="text-2xl font-bold mb-6">Send Us a Message</h2>
               <div className="space-y-4">
                 <div>
@@ -531,7 +531,7 @@ const ColebridgeWebsite = () => {
                     e.preventDefault();
                     alert('Thank you for your message! We will get back to you soon.');
                   }}
-                  className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+                  className="bg-white text-blue-950 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
                 >
                   Send Message
                 </button>
@@ -581,9 +581,9 @@ const ColebridgeWebsite = () => {
                 setMobileMenuOpen(false);
               }}
             >
-              {/* <Building2 className="w-8 h-8 text-blue-600 mr-2 transform transition-transform duration-500 hover:rotate-12" /> */}
+              {/* <Building2 className="w-8 h-8 text-blue-950 mr-2 transform transition-transform duration-500 hover:rotate-12" /> */}
               <img className='w-10 h-10 mr-2 transform transition-transform duration-500 hover:rotate-12' src={cole} alt="colebridge logo" />
-              <span className="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors duration-300">COLEBRIDGE ADVISORY</span>
+              <span className="text-2xl font-bold text-gray-800 hover:text-blue-950 transition-colors duration-300">COLEBRIDGE ADVISORY</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -608,7 +608,7 @@ const ColebridgeWebsite = () => {
                     }, 500); 
                   }}
                   >
-                    <button className="flex items-center text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 transform hover:scale-105">
+                    <button className="flex items-center text-gray-700 hover:text-blue-950 font-medium transition-all duration-300 transform hover:scale-105">
                       {item.name}
                       <ChevronDown className={`w-4 h-4 ml-1 duration-1000 ${servicesDropdownOpen ? 'rotate-180' : ''}`} />
                     </button>
@@ -622,7 +622,7 @@ const ColebridgeWebsite = () => {
                               setCurrentPage(subItem.id);
                               setServicesDropdownOpen(false);
                             }}
-                            className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-all duration-300 hover:pl-6 cursor-pointer"
+                            className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-950 transition-all duration-300 hover:pl-6 cursor-pointer"
                           >
                             {subItem.name}
                           </button>
@@ -634,8 +634,8 @@ const ColebridgeWebsite = () => {
                   <button
                     key={item.id}
                     onClick={() => setCurrentPage(item.id)}
-                    className={`text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 transform hover:scale-105 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-blue-600 after:transition-all after:duration-300 ${
-                      currentPage === item.id ? 'text-blue-600 after:w-full' : ''
+                    className={`text-gray-700 hover:text-blue-950 font-medium transition-all duration-300 transform hover:scale-105 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-blue-950 after:transition-all after:duration-300 ${
+                      currentPage === item.id ? 'text-blue-950 after:w-full' : ''
                     }`}
                   >
                     {item.name}
@@ -671,7 +671,7 @@ const ColebridgeWebsite = () => {
                           setCurrentPage(subItem.id);
                           setMobileMenuOpen(false);
                         }}
-                        className="block w-full text-left px-8 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition"
+                        className="block w-full text-left px-8 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-950 transition"
                       >
                         {subItem.name}
                       </button>
@@ -684,8 +684,8 @@ const ColebridgeWebsite = () => {
                       setCurrentPage(item.id);
                       setMobileMenuOpen(false);
                     }}
-                    className={`block w-full text-left px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition ${
-                      currentPage === item.id ? 'text-blue-600 bg-blue-50' : ''
+                    className={`block w-full text-left px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-950 transition ${
+                      currentPage === item.id ? 'text-blue-950 bg-blue-50' : ''
                     }`}
                   >
                     {item.name}
