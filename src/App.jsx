@@ -66,7 +66,7 @@ const ColebridgeWebsite = () => {
               <div className="absolute inset-0 bg-blue-950 bg-opacity-70 transition-all duration-700 hover:bg-opacity-60"></div>
               <div className="max-w-6xl mx-auto relative z-10 transform transition-all duration-700 hover:scale-105">
                 <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white animate-slideInLeft">Welcome to Colebridge Advisory</h1>
-                <p className="text-xl md:text-2xl mb-8 text-white animate-slideInRight">Empowering Growth Through Expert Advisory, Training & Research</p>
+                <p className="text-xl md:text-2xl mb-8 text-white animate-slideInRight">...Converting Vision to Value!</p>
                 <button 
                   onClick={() => setCurrentPage('about')}
                   className="bg-white text-blue-950 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl animate-bounce"
@@ -111,11 +111,11 @@ const ColebridgeWebsite = () => {
                     <p className="text-gray-600 group-hover:text-gray-900 transition-colors duration-300">Integrated services spanning consultancy, training, and research for holistic solutions.</p>
                   </div>
                 </div>
-                 <div className="border-l-4 border-blue-950 pl-6 py-4 bg-blue-50 mt-6">
+                 {/* <div className="border-l-4 border-blue-950 pl-6 py-4 bg-blue-50 mt-6">
                 <p className="text-lg text-gray-700 italic">
                   "...Converting Vision to Value! We turn strategic intentions into real, pratical, and measurable results."
                 </p>
-              </div>
+              </div> */}
               </div>
             </div>
           </div>
